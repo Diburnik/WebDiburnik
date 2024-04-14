@@ -1,0 +1,10 @@
+services:
+  - name: WebDiburnik
+    type: web
+    env: node
+    buildCommand: npm run build
+    startCommand: npm run start
+    backgroundTasks:
+      - name: keep-alive
+        command: curl -sS https://webdiburnik.onrender.com/
+        schedule: "*/10 * * * *"
