@@ -4,5 +4,13 @@
   "lang": "en",
   "name": "Diburnik",
   "short_name": "Diburnik",
-  "start_url": "/?utm_source=web_app_manifest"
+  "start_url": "/?utm_source=web_app_manifest",
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "http://play.google.com/store/apps/details?id=com.Diburnik",
+      "id": "com.Diburnik"
+    }
+  ],
+  "prefer_related_applications": true
 }
